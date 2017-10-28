@@ -1,0 +1,156 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: auto;
+}
+
+h2 {
+  margin: 15px 0px 20px 0px;
+}
+
+h2.shops {
+  margin: 15px 0px 15px 0px;
+}
+
+h4 {
+  margin: 10px 0px 20px 0px;
+}
+
+h4.light {
+  font-weight: lighter;
+}
+
+h5 {
+  margin-top: 0px;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  align-items: center;
+  z-index: 20;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.mainnav {
+  display: flex;
+  align-items: center;
+}
+
+.navitem {
+  text-decoration: underline;
+  color: seashell;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.content {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.mission {
+  display: flex;
+  height: 700px;
+  align-items: center;
+  background-image: url("../img/img-mission-background.jpg");
+  background-size: 1200px 800px;
+  background-repeat: no-repeat;
+}
+
+.statement {
+  width: 1200px;
+  background-color: black;
+  text-align: center;
+}
+
+.statement.loc {
+  background-color: inherit;
+}
+
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 800px;
+}
+
+.teas-top {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1000px;
+  padding-top: 20px;
+}
+
+.teas-bottom {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 650px;
+  padding-top: 30px;
+}
+
+.tea {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  justify-content: center;
+}
+
+.tea-span {
+  padding-top: 10px;
+}
+
+.locations {
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: 500px;
+  justify-content: center;
+  align-content: flex-start;
+  padding-top: 40px;
+  background-image: url("../img/img-locations-background.jpg");
+  background-position: bottom -225px right 0px;
+  background-repeat: no-repeat;
+}
+
+.shop {
+  display: inline-grid;
+  text-align: center;
+  width: 300px;
+  height: 275px;
+  margin: 0px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+.contact {
+  height: 200px;
+}
+
+.footer {
+  height: 50px;
+  margin-left: 20px;
+  align-items: center;
+}
